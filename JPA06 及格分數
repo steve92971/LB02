@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class ch2 {
+
+    static Scanner scn=new Scanner(System.in);
+    public static void main(String[] args) {
+        test();
+        test();
+        test();
+        test();
+    }
+    public static void test(){
+        int c,e,m;
+        System.out.println("Input Chinese score:");
+        c=scn.nextInt();
+        System.out.println("Input English score:");
+        e=scn.nextInt();
+        System.out.println("Input Math score:");
+        m=scn.nextInt();
+        if (c<60){
+            System.out.println("Chiese failed.");
+        }
+        if(e<60){
+            System.out.println("English failed.");
+        }
+        if (m<60){
+            System.out.println("Math failed.");
+        }
+        if ((c>60)&&(e>60)&&(m>60)){
+            System.out.println("All Pass.");
+        }
+
+    }
+}
