@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class ch2 {
+
+    static Scanner scn=new Scanner(System.in);
+    public static void main(String[] args) {
+        test();
+        test();
+        test();
+        test();
+        test();
+    }
+    public static void test(){
+        System.out.println("Input:");
+        int a=scn.nextInt();
+        if (a>=90) {
+            System.out.println("You grade is A");
+        }
+        else{
+            if (a>=80){
+                System.out.println("You grade is B");
+            }
+            else{
+                if (a>=70) {
+                    System.out.println("You grade is C");
+                }
+                else{
+                    if (a>=60) {
+                        System.out.println("You grade is D");
+                    }
+                    else{
+                        System.out.println("You grade is F");
+                    }
+                }
+            }
+        }
+
+        
+            
+        }
+    }
