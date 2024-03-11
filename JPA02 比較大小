@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class ch2 {
+    public static void main(String[] args) {
+        Scanner scn=new Scanner(System.in);
+        System.out.println("Input:");
+        int a=scn.nextInt();
+        int b=scn.nextInt();
+        if (a>b) {
+            System.out.printf("%d is larger than %d",a,b);
+        }
+        if (b>a){
+            System.out.printf("%d is larger than %d",b,a);
+        }
+        scn.close();
+}
+   
+
+}
