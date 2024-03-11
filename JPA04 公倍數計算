@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class ch2 {
+    static Scanner scn=new Scanner(System.in);//記這個
+    public static void main(String[] args) {
+        test();
+        test();
+    }
+    public static void test(){
+        System.out.println("Input:");
+        int a=scn.nextInt();
+        if ((a%5==0)&&(a%9==0)){
+            System.out.println("Yes");
+        }
+        else{
+            System.out.println("No");
+        }
+    }
+}
